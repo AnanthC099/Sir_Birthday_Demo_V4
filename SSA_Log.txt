@@ -517,23 +517,22 @@ createCommandBuffers() --> scene3 vkAllocateCommandBuffers() succeeded for itera
 createCommandBuffers() --> scene3 vkAllocateCommandBuffers() succeeded for iteration 1
 [0.000000] High-frequency timeline timer started
 WndProc() --> Showcase sequence started
-[0.000071] Scene Scene0 started
+[0.000056] Scene Scene0 started
 EnsureScene0AudioInitialized() --> OpenAL initialized for Omega_FadeOut.wav
 BeginScene0Audio() --> Playing Omega_FadeOut.wav via OpenAL
-[12.264688] Scene Scene0 ended
-[12.264705] Scene Scene1 started
-[12.264709] Transition Scene0->Scene1 started
-[20.264656] Transition Scene0->Scene1 ended
-[129.686472] Transition Scene1->Scene2 crossfade started
-[132.686298] Scene Scene1 ended
-[132.686325] Scene Scene2 started
-[132.686329] Transition Scene1->Scene2 crossfade ended
-[142.686786] Scene Scene2 ended
-[142.686805] Scene Scene3 started
-[142.686808] Transition Scene2->Scene3 focus pull started
-[147.185914] Transition Scene2->Scene3 focus pull ended
-[174.686337] Scene Scene3 ended
-ShutdownScene0Audio() --> OpenAL resources released
+[12.276807] Scene Scene0 ended
+[12.276825] Scene Scene1 started
+[12.276828] Transition Scene0->Scene1 started
+[20.276738] Transition Scene0->Scene1 ended
+[123.182622] Transition Scene1->Scene2 crossfade started
+[126.183630] Scene Scene1 ended
+[126.183658] Scene Scene2 started
+[126.183661] Transition Scene1->Scene2 crossfade ended
+[136.182587] Scene Scene2 ended
+[136.182626] Scene Scene3 started
+[136.182630] Transition Scene2->Scene3 focus pull started
+[140.683270] Transition Scene2->Scene3 focus pull ended
+[168.182669] Scene Scene3 ended
 Resize() --> vkDeviceWaitIdle() is done
 Resize() --> gCtx_Switcher.vkFrameBuffer_array() is done
 Resize() --> vkFreeCommandBuffers() is done
@@ -591,6 +590,7 @@ createCommandBuffers() --> scene2 vkAllocateCommandBuffers() succeeded for itera
 createCommandBuffers() --> scene2 vkAllocateCommandBuffers() succeeded for iteration 1
 createCommandBuffers() --> scene3 vkAllocateCommandBuffers() succeeded for iteration 0
 createCommandBuffers() --> scene3 vkAllocateCommandBuffers() succeeded for iteration 1
+ShutdownScene0Audio() --> OpenAL resources released
 Uninitialize() --> vkDeviceWaitIdle() is done
 Uninitialize() --> vkDestroyFence() is done
 Uninitialize() --> vkDestroySemaphore() for gCtx_Switcher.vkSemaphore_renderComplete is done
