@@ -111,7 +111,7 @@ static const DWORD K_SCENE2_FOCUS_PULL_MS           = 4500u;
 static const DWORD K_SCENE3_HOLD_MS                 = 5000u;
 static const DWORD K_SCENE3_PRE_FADE_WAIT_MS        = 3500u; // allow finale to breathe before fade
 static const DWORD K_SCENE3_FADE_TO_BLACK_MS        = 7000u; // longer tail for softer visual fade
-static const DWORD K_SCENE3_POST_BLACK_AUDIO_DELAY_MS = 10000u; // hold audio after visuals fade
+static const DWORD K_SCENE3_POST_BLACK_AUDIO_DELAY_MS = 5000u; // hold audio 5s after visuals fade
 static const DWORD K_SCENE3_AUDIO_FADE_MS           = K_SCENE3_FADE_TO_BLACK_MS; // reuse visual fade duration for audio
 
 typedef enum SequenceStateTag
